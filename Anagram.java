@@ -18,7 +18,7 @@ public class Anagrams {
 		
 	}
 	
-	// Function to print the anagrams	
+	// Function to print the list of anagrams	
 	private static void printAnagrams(HashMap<String, ArrayList<Integer>> hash,ArrayList<String> words) {
 		
 		for(ArrayList<Integer> list : hash.values()) {
