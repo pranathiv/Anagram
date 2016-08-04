@@ -15,7 +15,7 @@ public class Anagrams {
 		sortAllWords(wordsCopy);
 		printAnagrams(putIntoHashMap(wordsCopy), words);
 	}
-<<<<<<< HEAD
+
 	
 	// Function to print the list of anagrams	
 	private static void printAnagrams(HashMap<String, ArrayList<Integer>> hash,ArrayList<String> words) {
@@ -25,7 +25,7 @@ public class Anagrams {
 				for(Integer l : list)
 					p(words.get(l)+" ");
 				p("\n");
-=======
+
 
 	// Function to print the anagrams
 	private static void printAnagrams(HashMap<String, ArrayList<Integer>> hash, ArrayList<String> words) {
@@ -35,7 +35,7 @@ public class Anagrams {
 				for (Integer l : list)
 					print(words.get(l) + " ");
 				print("\n");
->>>>>>> ab15d9ebc54efc87d73bee7b58116d140717c399
+
 			}
 		}
 	}
